@@ -1,0 +1,17 @@
+node_modules
+build/
+npm-debug.log
+system-notification.iml
+react-native-system-notification.iml
+.DS_Store
+.idea/
+android/.classpath
+android/.gradle/
+android/.idea/
+android/.project
+android/.settings
+android/gradle/**
+android/gradlew*
+android/local.properties
+*.iml
+yarn.lock
