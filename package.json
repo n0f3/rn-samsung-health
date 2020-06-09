@@ -18,5 +18,8 @@
     "android",
     "library"
   ],
-  "author": "Ganesh Singh Papola"
+  "author": "Ganesh Singh Papola",
+  "devDependencies": {
+    "prettier": "2.0.5"
+  }
 }
