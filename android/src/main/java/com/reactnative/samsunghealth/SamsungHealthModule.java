@@ -73,7 +73,7 @@ public class SamsungHealthModule extends ReactContextBaseJavaModule implements
         super.initialize();
 
         getReactApplicationContext().addLifecycleEventListener(this);
-        initSamsungHealth();
+        //initSamsungHealth();
     }
 
     @Override
@@ -108,15 +108,15 @@ public class SamsungHealthModule extends ReactContextBaseJavaModule implements
     }
 
 
-    public void initSamsungHealth() {
-        Log.d(REACT_MODULE, "initialize Samsung Health...");
-        HealthDataService healthDataService = new HealthDataService();
-        try {
-            healthDataService.initialize(getReactApplicationContext());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+    // public void initSamsungHealth() {
+    //     Log.d(REACT_MODULE, "initialize Samsung Health...");
+    //     HealthDataService healthDataService = new HealthDataService();
+    //     try {
+    //         healthDataService.initialize(getReactApplicationContext());
+    //     } catch (Exception e) {
+    //         e.printStackTrace();
+    //     }
+    // }
 
     public HealthDataStore getStore()
     {
