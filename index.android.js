@@ -117,7 +117,7 @@ class RNSamsungHealth {
     });
   }
 
-  getBodyTemprature(options) {
+  getBodyTemperature(options) {
     let startDate =
       options.startDate != undefined
         ? options.startDate
@@ -205,7 +205,7 @@ class RNSamsungHealth {
     });
   }
 
-  usubscribeListeners() {
+  unsubscribeListeners() {
     DeviceEventEmitter.removeAllListeners();
   }
 
